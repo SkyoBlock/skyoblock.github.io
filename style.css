@@ -131,13 +131,13 @@ h1 {
   color: #000000;
   font-family: Poppins, sans-serif;
   font-size: 300%;
-  margin: 20px;
+  margin-left: 20px;
 }
 h2 {
   color: #000000;
   font-family: Arial, sans-serif;
   font-size: 200%;
-  margin: 20px;
+  margin-left: 20px;
 }
 h3 {
   color: #000000;
@@ -154,18 +154,18 @@ a:link {
   color: #007ea8;
   font-family: Arial, sans-serif;
   font-size: 100%;
-  margin: 20px;
+  margin-left: 20px;
 }
 a:visited {
   color: #007ea8;
   font-family: Arial, sans-serif;
   font-size: 100%;
-  margin: 20px;
+  margin-left: 20px;
 }
 a:hover {
   color: #007ea8;
   font-family: Arial, sans-serif;
   font-size: 100%;
   font-weight: bolder;
-  margin: 20px;
+  margin-left: 20px;
 }
