@@ -102,9 +102,8 @@ body {
 }
 .logo {
   position: absolute;
-  top: 1px;
-  right: 15px;
-  font-size: 1.2rem;
+  left: 15px;
+  font-size: 2.4rem;
   color: #0e2431;
 }
 body {
@@ -213,7 +212,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849);
+  background: linear-gradient(to left, #e843f4, #2804dc);
   color: #FFF;
   height: 50px;
   padding: 1em;
