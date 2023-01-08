@@ -201,22 +201,18 @@ html, body {
   margin: 0;
   height: 100%;
 }
-
-* {
-  font-family: "Raleway";
-  box-sizing: border-box;
-}
-
 .top-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #e843f4, #2804dc);
-  color: #FFF;
+  background: linear-gradient(to left, #e843f4, #046ddc);
+  color: #000000;
   height: 50px;
   padding: 1em;
+  top: 0;
+  z-index: 99 !important;
 }
 
 .menu {
