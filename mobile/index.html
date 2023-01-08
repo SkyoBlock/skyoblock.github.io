@@ -10,29 +10,31 @@
 </head>
 
 <body>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="topnav">
-  <a class="active logo">Skyo</a>
-  <div id="myLinks">
-    <a href="mobile/index.html">Home</a>
-    <a href="mobile/updates.html">Updates</a>
-    <a href="mobile/projects.html">Projects</a>
-    <a href="https://github.com/SkyoBlock">GitHub</a>
-    <a href="javascript:toggleDarkMode()">Night</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-            <script type="text/javascript">
-            function toggleDarkMode() {
-              const darkmode =  new Darkmode();
-              for (let i = 0; i > 1; i++) {
-                darkmode.toggle();
-              }
-            }
-            </script>
-            <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <section class="top-nav">
+    <div>
+      Logo Here
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="mobile/index.html">Home</a></li>
+      <li><a href="mobile/updates.html">Updates</a></li>
+      <li><a href="mobile/projects.html">Projects</a></li>
+      <li><a href="https://github.com/SkyoBlock">GitHub</a></li>
+      <li><a href="javascript:toggleDarkMode()">Night</a></li>
+    </ul>
+  </section>   
+  <script type="text/javascript">
+    function toggleDarkMode() {
+      const darkmode =  new Darkmode();
+      for (let i = 0; i > 1; i++) {
+        darkmode.toggle();
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
 
   var options = {
