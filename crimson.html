@@ -44,6 +44,20 @@
 
 const darkmode = new Darkmode(options);
 </script>
+<script>
+  function checkForLime() {
+    var input = "";
+    document.onkeypress = function(event) {
+        input += event.key;
+        if (input.endsWith("lime")) {
+            var element = document.body;
+            element.classList.toggle("lime-mode");
+            input = "";
+        }
+    }
+}
+checkForLime()
+</script>
             
           </div>
         </div>
