@@ -143,19 +143,17 @@ a:link {
   color: #000000;
   font-family: Poppins, sans-serif;
   font-size: 100%;
-  text-decoration: none;
 }
 a:visited {
   color: #000000;
   font-family: Poppins, sans-serif;
   font-size: 100%;
-  text-decoration: none;
 }
 a:hover {
   color: #000000;
   font-family: Poppins, sans-serif;
   font-size: 100%;
-  text-decoration: none;
+  font-weight: bolder;
 }
 .projects-title {
   color: #000000;
