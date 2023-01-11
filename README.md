@@ -1,4 +1,4 @@
-# skyoblock.github.io
+# The SkyoWeb
 The Skyo Website
 
-https://SkyoBlock.github.io
+https://SkyoProductions.github.io
